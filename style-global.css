@@ -62,10 +62,29 @@ header img {
     }
 }
 
+@media(max-width: 490px) {
+    header img {
+        width: 100px;
+        padding: 5px 0 5px 5px;
+    }
+
+    header h1 {
+        font-size: 1em;
+    }
+
+    nav a {
+        font-size: 0.7em;
+    }
+
+    #home-img {
+        width: 20px;
+    }
+}
+
 @media(max-width: 320px) {
     header img {
-        width: 80px;
-        padding: 10px 0 10px 10px;
+        width: 90px;
+        padding: 0;
     }
 
     header h1 {
@@ -73,7 +92,11 @@ header img {
     }
 
     nav a {
-        font-size: 0.6em;
+        font-size: 0.7em;
+    }
+
+    #home-img {
+        width: 20px;
     }
 }
 
