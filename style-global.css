@@ -182,14 +182,15 @@ footer {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    width: 1280px;
+    width: 1250px;
     text-align: center;
 }
 
-@media(max-width: 940px) {
+@media(max-width: 965px) {
     .rodape {
         justify-content: center;
         padding: 30px;
+        gap: 40px;
     }
 }
 
@@ -254,6 +255,27 @@ footer {
 
     #registro {
         font-size: 0.6em;
+    }
+}
+
+@media (max-width: 470px) {
+
+    .infos-adicionais-icones img {
+        display: flex;
+        width: 23px;
+    }
+
+    .infos-adicionais-icones {
+        display: none;
+    }
+
+    .h6 {
+        font-size: 0.8em;
+        text-align: center;
+    }
+
+    #registro {
+        font-size: 0.5em;
     }
 }
 
