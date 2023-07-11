@@ -1,0 +1,25 @@
+h1 {
+    text-align: center;
+    padding: 30px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+}
+
+.one {
+    display: flex;
+    flex-direction: column;
+    background-color: aquamarine;
+    width: 600px;
+}
+
+.two {
+    display: flex;
+    flex-direction: column;
+    background-color: blueviolet;
+    width: 600px;
+}

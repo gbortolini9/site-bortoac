@@ -1,0 +1,27 @@
+.text-pag3 {
+    text-indent: 0;
+}
+
+.etica-responsabilidade {
+    display: flex;
+    align-items: center;
+}
+
+.figura05 img{
+    width: 350px;
+    padding: 30px 20px 30px 0;
+}
+
+@media(max-width: 840px) {
+    .etica-responsabilidade {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media(max-width: 390px) {
+    .figura05 img {
+        width: 250px;
+    }
+}

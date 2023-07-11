@@ -1,0 +1,44 @@
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: white;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+section img {
+    width: 280px;
+}
+
+span {
+    width: 260px;
+    height: 450px;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.txt-span {
+    text-align: left;
+    text-indent: 0;
+    font-size: 1.4em;
+    color: white;
+}
+
+.box01 {
+    background-color: var(--color1);
+}
+
+.box02 {
+    background-color: var(--color3);
+}
+
+.box03 {
+    background-color: var(--color2);
+}
+
+#txt-final {
+    margin: 5px 0px;
+}

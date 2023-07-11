@@ -1,0 +1,283 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+:root {
+    --color1: #187A01;
+    --color2: #3F912D; 
+    --color3: #57C73E;
+    --color4: #0E4701;
+    --color5: #26C702;
+    --color6: #ecf6ea;
+}
+
+header {
+    display: flex;
+    background-color: white;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1280px;
+}
+
+header h1 {
+    color: var(--color1);
+    padding: 40px;
+    text-align: center;
+    font-weight: normal;
+    font-size: 1.9em;
+}
+
+header img {
+    padding: 10px 0px;
+    width: 218px;
+}
+
+@media(max-width: 1280px) {
+    header img {
+        width: 170px;
+    }
+
+    header h1 {
+        font-size: 1.7em;
+    }
+}
+
+@media(max-width: 660px) {
+    header img {
+        width: 120px;
+        padding: 10px 0 10px 10px;
+    }
+
+    header h1 {
+        font-size: 1.2em;
+    }
+
+    nav a {
+        font-size: 0.9em;
+    }
+}
+
+@media(max-width: 320px) {
+    header img {
+        width: 80px;
+        padding: 10px 0 10px 10px;
+    }
+
+    header h1 {
+        font-size: 0.9em;
+    }
+
+    nav a {
+        font-size: 0.6em;
+    }
+}
+
+nav {
+    background-color: var(--color3);
+
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1300px;
+    margin: auto;
+    flex-wrap: wrap;
+    padding: 2px;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--color4);
+    padding: 4px;
+    font-weight: bold;    
+}
+
+.menu img {
+    width: 28px;
+}
+
+a:hover {
+    background-color: var(--color1);
+    border-radius: 7px;
+    color: white;
+    transition-duration: 0.5s;
+}
+
+
+.banner {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.banner img {
+    width: 100%;
+}
+
+main {
+    margin: auto;
+    max-width: 1210px;
+    padding: 10px 30px;
+    border-radius: 0 0 10px 10px;
+    background-color: white;
+    box-shadow: 0px 2px 13px 5px rgba(0, 0, 0, 0.135);
+}
+
+strong {
+    color: var(--color2);
+}
+
+h2 {
+    padding: 15px 0px;
+    font-size: 1.8em;
+    color: var(--color1);
+}
+
+p {
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1.2em;
+}
+
+@media (max-width: 320px) {
+    h2 {
+        font-size: 1.5em;
+    }
+
+    p {
+        font-size: 1.1em;
+    }
+
+    .menu img {
+        width: 23px;
+    }
+}
+
+h3 {
+    color: white;
+    text-align: center;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+footer {
+    background-image: linear-gradient(to right, var(--color4), var(--color1));
+    display: flex;
+    margin-top: 30px;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 1280px;
+    text-align: center;
+}
+
+@media(max-width: 940px) {
+    .rodape {
+        justify-content: center;
+        padding: 30px;
+    }
+}
+
+@media(max-width: 630px) {
+    .infos-adicionais-icones {
+        font-size: 0.8em;
+    }
+    
+}
+
+.rodape img {
+    max-width: 110px;
+    padding: 10px;
+}
+
+.infos-adicionais {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.h6 {
+  padding: 10px;
+  color: white;
+  font-size: 1.2em;
+}
+
+.infos-adicionais-icones {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.infos-adicionais-icones img {
+    display: flex;
+    width: 30px;
+    padding: 5px;
+}
+
+#registro {
+    color: white;
+    font-size: 0.9em;
+    text-align: center;
+}
+
+@media (max-width: 500px) {
+
+    .infos-adicionais-icones img {
+        display: flex;
+        width: 25px;
+
+        padding: 1px;
+    }
+
+    .h6 {
+        font-size: 0.9em;
+        text-align: center;
+    }
+
+    #registro {
+        font-size: 0.6em;
+    }
+}
+
+@media (max-width: 320px) {
+    .rodape img {
+        width: 50px;
+    }
+
+    .infos-adicionais-icones img {
+        display: flex;
+        width: 25px;
+    }
+
+    .infos-adicionais-icones {
+        display: none;
+
+    }
+
+    .h6 {
+        font-size: 0.9em;
+        text-align: center;
+    }
+
+    #registro {
+        font-size: 0.6em;
+    }
+}

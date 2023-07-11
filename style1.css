@@ -1,0 +1,17 @@
+.txt-figura01 {
+    display: flex;
+    align-items: center;
+
+}
+
+.figura01 img {
+    width: 200px;
+    padding: 30px;
+}
+
+@media(max-width: 570px) {
+    .txt-figura01 {
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+    }
+}
