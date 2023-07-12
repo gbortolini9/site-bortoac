@@ -133,6 +133,37 @@ a:hover {
     transition-duration: 0.5s;
 }
 
+.menu-escondido {
+    display: none;
+}
+
+.menu-escondido img {
+    width: 32px;
+    padding: 5px 0px 5px 15px;
+}
+
+.itens-menu-escondido {
+    display: none;
+}
+
+@media(max-width: 910px) {
+    .menu {
+        display: none;
+    }
+
+    .menu-escondido {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu-escondido:hover .itens-menu-escondido  {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+}
 
 .banner {
     display: flex;
