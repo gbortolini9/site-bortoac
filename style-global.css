@@ -146,7 +146,7 @@ a:hover {
     display: none;
 }
 
-@media(min-width: 910px) {
+@media(max-width: 910px) {
     .menu {
         display: none;
     }
