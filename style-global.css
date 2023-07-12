@@ -214,6 +214,10 @@ p {
     .menu img {
         width: 23px;
     }
+
+    .menu-escondido img {
+        width: 23px;
+    }
 }
 
 h3 {
