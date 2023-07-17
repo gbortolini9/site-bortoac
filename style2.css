@@ -28,15 +28,15 @@ span {
 }
 
 .box01 {
-    background-color: var(--color1);
+    background-color: rgb(24 122 1);
 }
 
 .box02 {
-    background-color: var(--color3);
+    background-color: rgb(89 229 0);
 }
 
 .box03 {
-    background-color: var(--color2);
+    background-color: rgb(55 162 0);
 }
 
 #txt-final {

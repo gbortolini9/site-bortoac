@@ -1,25 +1,22 @@
-h1 {
-    text-align: center;
-    padding: 30px;
-}
-
 section {
     display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: blue;
 }
 
-.one {
-    display: flex;
-    flex-direction: column;
-    background-color: aquamarine;
-    width: 600px;
+.h1-contato {
+    font-size: 2em;
+    text-align: center;
 }
 
-.two {
-    display: flex;
-    flex-direction: column;
-    background-color: blueviolet;
-    width: 600px;
+.one {
+    width: 40vh;
+    background-color: aqua;     
+}
+
+.one h4 {
+    font-size: 1.1em;
+}
+
+.one p {
+    text-indent: 0;
 }
