@@ -1,22 +1,63 @@
 section {
     display: flex;
-    background-color: blue;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    width: 100%;
+    margin-bottom: 30px;
 }
 
 .h1-contato {
     font-size: 2em;
     text-align: center;
+    padding: 20px;
 }
 
-.one {
-    width: 40vh;
-    background-color: aqua;     
+.endereco h4 {
+    font-size: 1.3em;
 }
 
-.one h4 {
-    font-size: 1.1em;
-}
-
-.one p {
+.endereco p {
     text-indent: 0;
+    padding: 10px;
+}
+
+#divisao {
+    width: 100%;
+    border: solid 1px var(--color1);
+}
+
+form {
+    margin-left: 30px;
+    width: 100%;   
+}
+
+  label, input, textarea {
+    display: block;
+    margin-bottom: 10px;
+    width: 80vh;
+}
+
+@media(max-width: 600px) {
+    label, input, textarea {
+        width: 400px;
+    }
+
+    .endereco {
+        padding: 20px;
+    }
+}
+
+  input[type="submit"] {
+    background-image: var(--color6);
+    border-radius: 20px;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover {
+    background-image: linear-gradient(to right, var(--color3), var(--color5));
 }

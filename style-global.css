@@ -12,7 +12,7 @@
     --color3: #57C73E;
     --color4: #0E4701;
     --color5: #26C702;
-    --color6: #ecf6ea;
+    --color6: linear-gradient(to right, var(--color4), var(--color1));
 }
 
 header {
