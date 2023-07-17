@@ -15,6 +15,20 @@
     --color6: linear-gradient(to right, var(--color4), var(--color1));
 }
 
+.icones-topo {
+    display: flex; 
+    justify-content: center;
+    gap: 20px;
+    padding: 10px 0px;
+    justify-content: center;
+}
+
+.sep {
+    margin: auto;
+    width: 50vh;
+    border-bottom: 2px solid var(--color4);
+}
+
 header {
     display: flex;
     background-color: white;

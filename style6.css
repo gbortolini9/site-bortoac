@@ -1,3 +1,12 @@
+:root {
+    --color1: #187A01;
+    --color2: #3F912D; 
+    --color3: #57C73E;
+    --color4: #0E4701;
+    --color5: #26C702;
+    --color6: linear-gradient(to right, var(--color4), var(--color1));
+}
+
 section {
     display: flex;
     flex-wrap: wrap;
@@ -9,8 +18,11 @@ section {
 
 .h1-contato {
     font-size: 2em;
-    text-align: center;
-    padding: 20px;
+    padding: 10px;
+    color: white;
+    background-image: linear-gradient(to right, var(--color4), white);
+    border-radius: 10px;
+    margin: 20px 0px 50px 0px;
 }
 
 .endereco h4 {
