@@ -19,10 +19,13 @@ section {
 .h1-contato {
     font-size: 2em;
     padding: 10px;
-    color: white;
-    background-image: linear-gradient(to right, var(--color4), white);
+    text-align: center;
     border-radius: 10px;
-    margin: 20px 0px 50px 0px;
+    margin: 10px 0px;
+}
+
+section {
+    margin-top: 30px;
 }
 
 .endereco h4 {
@@ -50,6 +53,10 @@ form {
     width: 80vh;
 }
 
+#mensagem {
+    height: 100px;
+} 
+
 @media(max-width: 600px) {
     label, input, textarea {
         width: 400px;
@@ -63,6 +70,7 @@ form {
   input[type="submit"] {
     background-image: var(--color6);
     border-radius: 20px;
+    width: 100px;
     color: white;
     border: none;
     padding: 10px;
