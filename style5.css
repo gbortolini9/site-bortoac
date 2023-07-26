@@ -21,6 +21,11 @@ div img {
 @media(max-width:1220px) {
     div {
         flex-wrap: wrap-reverse;
+        justify-content: center;
+    }
+
+    .texto00 {
+        padding: 0;
     }
 
     .texto00 p {
