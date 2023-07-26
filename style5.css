@@ -1,0 +1,33 @@
+div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+div img {
+    max-width: 400px;
+}
+
+.texto00 {
+    display: flex;
+    flex-direction: column;
+    padding-right: 40px;
+}
+
+.texto00 p {
+    max-width: 700px;
+}
+
+@media(max-width:1220px) {
+    div {
+        flex-wrap: wrap-reverse;
+    }
+
+    .texto00 p {
+        max-width: 100%;
+    }
+
+    div img {
+        padding: 40px;
+    }
+}
