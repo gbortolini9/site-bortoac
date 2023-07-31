@@ -366,3 +366,19 @@ footer {
         flex-direction: column;
     }
 }
+
+.registroo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sub-registro {
+    display: flex;
+    justify-content: center;
+}
+
+#bortoac-logo-3 {
+    width: 40px;
+    padding: 0px 5px;
+}
