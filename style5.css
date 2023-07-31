@@ -1,10 +1,10 @@
-div {
+.img-txt {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
 
-div img {
+.img-txt img {
     max-width: 400px;
 }
 
@@ -19,7 +19,7 @@ div img {
 }
 
 @media(max-width:1220px) {
-    div {
+    img.txt {
         flex-wrap: wrap-reverse;
         justify-content: center;
     }
@@ -32,7 +32,7 @@ div img {
         max-width: 100%;
     }
 
-    div img {
+    .img-txt img {
         padding: 40px;
     }
 }
