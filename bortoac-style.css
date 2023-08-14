@@ -241,12 +241,24 @@ p {
 /*Header*/
 
 /*Main*/
-    @media(max-width: 500px) {
+@media(max-width: 500px) {
         main {
             padding: 10px 10px;
         }
-    }
+}
 /*Main*/
+
+/*P*/
+@media(max-width: 500px) {
+    p {
+        font-size: 1em;
+    }
+
+    h2 {
+        font-size: 1.4em;
+    }
+}
+/*p*/
 
 /*Section*/
 @media(max-width: 1020px) {
