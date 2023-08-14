@@ -60,17 +60,17 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 30px;
 }
 
 h2 {
     font-size: 2em;
-    padding-bottom: 15px;
+    padding: 30px 0 20px 0;
 }
 
 p {
     font-size: 1.5em;
     text-align: justify;
+    line-height: 1.4;
 }
  
 .parte01 img {
@@ -91,6 +91,22 @@ p {
 .parte02-coluna {
     display: flex;
     flex-direction: column;
+}
+
+.parte03 img {
+    width: 200px;
+    padding-right: 20px;
+}
+
+.parte03 {
+    display: flex;
+    flex-direction: column;
+}
+
+.img-txt {
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
 }
 
 /*Header*/
@@ -262,5 +278,22 @@ p {
         margin: auto;
         padding-top: 30px;
     }
+}
+
+@media(max-width: 540px) {
+    .parte02 img {
+        width: 100%;
+    }
+}
+
+@media(max-width: 993px) {
+    .img-txt {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .img-txt img{
+        padding: 20px;
 }
 /*Section*/
