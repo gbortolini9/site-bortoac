@@ -84,7 +84,7 @@ p {
 }
 
 .parte02 img {
-    width: 500px;
+    width: 45%;
     padding-left: 30px;
 }
 
@@ -282,7 +282,9 @@ p {
 
 @media(max-width: 540px) {
     .parte02 img {
-        width: 100%;
+        width: 90%;
+        padding: 0;
+        padding-top: 20px;
     }
 }
 
