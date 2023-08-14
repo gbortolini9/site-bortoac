@@ -55,24 +55,45 @@ main {
 .letreiro img {
     width: 100%;
 }
- 
-.parte01 {
+
+section {
     display: flex;
     align-items: center;
     justify-content: center;
     padding-top: 30px;
 }
 
-.parte01 img {
-    width: 500px;
+h2 {
+    font-size: 2em;
+    padding-bottom: 15px;
 }
 
-.parte01 p {
+p {
     font-size: 1.5em;
     text-align: justify;
-    padding-left: 20px;
+}
+ 
+.parte01 img {
+    width: 500px;
+    padding-right: 30px;
 }
 
+.parte02 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.parte02 img {
+    width: 500px;
+    padding-left: 30px;
+}
+
+.parte02-coluna {
+    display: flex;
+    flex-direction: column;
+}
+
+/*Header*/
 @media(max-width: 1109px) {
     #logo {
         width: 200px;
@@ -201,17 +222,45 @@ main {
         margin-top: -45px;
     }
 }
+/*Header*/
 
+/*Main*/
+    @media(max-width: 500px) {
+        main {
+            padding: 10px 10px;
+        }
+    }
+/*Main*/
+
+/*Section*/
 @media(max-width: 1020px) {
     .parte01 {
         flex-wrap: wrap;
     }
 
     .parte01 p {
-        margin-top: 20px;
+        margin: 20px 0px;
+        padding-left: 0;
     }
 
     .parte01 img {
-        width: 80%;
+        width: 70%;
+    }
+
+    .parte02 img {
+        width: 400px;
+        padding-left: 15px;
     }
 }
+
+@media(max-width: 829px) {
+    .parte02 {
+        flex-wrap: wrap;
+    }
+
+    .parte02 img {
+        margin: auto;
+        padding-top: 30px;
+    }
+}
+/*Section*/
