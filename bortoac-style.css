@@ -36,58 +36,6 @@ header {
     margin-top: -25px;
 }
 
-@media(max-width: 1100px) {
-    #logo {
-        width: 200px;
-    }
-
-    #img-30anos {
-        width: 450px;
-    }
-}
-
-@media(max-width: 750px) {
-    #logo {
-        width: 150px;
-        margin-bottom: 30px;
-    }
-
-    #img-30anos {
-        width: 300px;
-    }
-}
-
-@media(max-width: 515px) {
-    #logo {
-        width: 110px;
-        margin-bottom: 30px;
-    }
-
-    #img-30anos {
-        width: 210px;
-    }
-
-    .line{
-        height: 6px;
-    }
-}
-
-@media(max-width: 375px) {
-    #logo {
-        width: 80px;
-        margin-bottom: 20px;
-        padding-left: 15px;
-    }
-
-    #img-30anos {
-        width: 200px;
-    }
-
-    #line {
-        margin-top: -10px;
-    }
-}
-
 main {
     margin: auto;
     max-width: 1210px;
@@ -123,6 +71,135 @@ main {
     font-size: 1.5em;
     text-align: justify;
     padding-left: 20px;
+}
+
+@media(max-width: 1109px) {
+    #logo {
+        width: 200px;
+    }
+
+    #img-30anos {
+        width: 500px;
+    }
+
+    .line {
+        height: 7px;
+        margin-top: -25px;
+    }
+}
+
+@media(max-width: 899px) {
+    #logo {
+        width: 170px;
+    }
+
+    #img-30anos {
+        width: 400px;
+    }
+
+    .line {
+        height: 7px;
+        margin-top: -18px;
+    }
+}
+
+@media(max-width: 739px) {
+    #logo {
+        width: 150px;
+    }
+
+    #img-30anos {
+        width: 350px;
+    }
+
+    .line {
+        height: 7px;
+        margin-top: -20px;
+    }
+}
+
+@media(max-width: 629px) {
+    #logo {
+        width: 140px;
+    }
+
+    #img-30anos {
+        width: 300px;
+        margin-top: -25px;
+    }
+
+    .line {
+        height: 5px;
+        margin-top: -40px;
+    }
+}
+
+@media(max-width: 549px) {
+    #logo {
+        width: 130px;
+        padding-left: 15px;
+    }
+
+    #img-30anos {
+        width: 250px;
+        margin-top: -25px;
+    }
+
+    .line {
+        height: 5px;
+        margin-top: -45px;
+    }
+}
+
+@media(max-width: 439px) {
+    #logo {
+        width: 100px;
+        padding-left: 15px;
+    }
+
+    #img-30anos {
+        width: 200px;
+        margin-top: -30px;
+    }
+
+    .line {
+        height: 5px;
+        margin-top: -45px;
+    }
+}
+
+@media(max-width: 359px) {
+    #logo {
+        width: 90px;
+        padding-left: 15px;
+    }
+
+    #img-30anos {
+        width: 170px;
+        margin-top: -30px;
+    }
+
+    .line {
+        height: 5px;
+        margin-top: -45px;
+    }
+}
+
+@media(max-width: 320px) {
+    #logo {
+        width: 80px;
+        padding-left: 15px;
+    }
+
+    #img-30anos {
+        width: 160px;
+        margin-top: -40px;
+    }
+
+    .line {
+        height: 5px;
+        margin-top: -45px;
+    }
 }
 
 @media(max-width: 1020px) {
