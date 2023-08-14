@@ -249,7 +249,7 @@ p {
 /*Main*/
 
 /*P*/
-@media(max-width: 500px) {
+@media(max-width: 499px) {
     p {
         font-size: 1em;
     }
