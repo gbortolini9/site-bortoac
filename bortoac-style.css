@@ -1,0 +1,140 @@
+@charset "UFT-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    max-width: 2000px;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+
+#logo {
+    width: 250px;
+    padding-left: 30px;
+    margin-bottom: 50px;
+}
+
+#img-30anos {
+    width: 600px;
+}
+
+.line {
+    display: flex;
+    width: 100%;
+    height: 10px;
+    background-color: rgb(236, 236, 236);
+    margin-top: -25px;
+}
+
+@media(max-width: 1100px) {
+    #logo {
+        width: 200px;
+    }
+
+    #img-30anos {
+        width: 450px;
+    }
+}
+
+@media(max-width: 750px) {
+    #logo {
+        width: 150px;
+        margin-bottom: 30px;
+    }
+
+    #img-30anos {
+        width: 300px;
+    }
+}
+
+@media(max-width: 515px) {
+    #logo {
+        width: 110px;
+        margin-bottom: 30px;
+    }
+
+    #img-30anos {
+        width: 210px;
+    }
+
+    .line{
+        height: 6px;
+    }
+}
+
+@media(max-width: 375px) {
+    #logo {
+        width: 80px;
+        margin-bottom: 20px;
+        padding-left: 15px;
+    }
+
+    #img-30anos {
+        width: 200px;
+    }
+
+    #line {
+        margin-top: -10px;
+    }
+}
+
+main {
+    margin: auto;
+    max-width: 1210px;
+    padding: 10px 30px;
+    border-radius: 0 0 10px 10px;
+    background-color: white;
+}
+
+.letreiro {
+    max-width: 2000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+.letreiro img {
+    width: 100%;
+}
+ 
+.parte01 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.parte01 img {
+    width: 500px;
+}
+
+.parte01 p {
+    font-size: 1.5em;
+    text-align: justify;
+    padding-left: 20px;
+}
+
+@media(max-width: 1020px) {
+    .parte01 {
+        flex-wrap: wrap;
+    }
+
+    .parte01 p {
+        margin-top: 20px;
+    }
+
+    .parte01 img {
+        width: 80%;
+    }
+}
