@@ -49,7 +49,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px 0px;
+    padding: 10px 0 20px 0;
 }
 
 .letreiro img {
@@ -72,7 +72,7 @@ p {
     text-align: justify;
     line-height: 1.4;
 }
- 
+
 .parte01 img {
     width: 500px;
     padding-right: 30px;
