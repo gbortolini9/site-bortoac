@@ -7,11 +7,31 @@
 }
 
 body {
-    max-width: 2000px;
     margin: auto;
 }
 
+nav {
+    height: 50px;
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    padding: 0 30px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FF6500;
+}
+
 header {
+    max-width: 2000px;
+    margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -49,6 +69,7 @@ main {
     justify-content: center;
     align-items: center;
     padding: 10px 0 20px 0;
+    margin: auto;
 }
 
 .letreiro img {

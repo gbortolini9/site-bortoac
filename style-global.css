@@ -13,6 +13,7 @@
     --color4: #0E4701;
     --color5: #26C702;
     --color6: linear-gradient(to right, var(--color4), var(--color1));
+    --cor-degrade: linear-gradient(to right, #FF1401 #FF6500 #FFA200);
 }
 
 .icones-topo {
