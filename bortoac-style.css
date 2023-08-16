@@ -230,6 +230,18 @@ input[type="submit"]:hover {
     padding: 30px;
 }
 
+/*nav*/
+@media(max-width: 370px) {
+    .itens-menu {
+        justify-content: center;
+    }
+
+    a {
+        font-size: 0.9em;
+    }
+}
+/*nav*/
+
 /*Header*/
 @media(max-width: 1109px) {
     #logo {
