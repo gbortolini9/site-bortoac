@@ -8,9 +8,11 @@
 </head>
 <body>
     <nav>
-        <a href="#">Quem somos</a>
-        <a href="#">Contato</a>
-        <a href="#">Sustentabilidade</a>
+        <div class="itens-menu">
+            <a href="#">Início</a>
+            <a href="#">Contato</a>
+            <a href="index.html">Sustentabilidade</a>
+        </div>
     </nav>
     <header>
        <img id="logo" src="img/logobortoac.png" alt="Logo Bortoac">
@@ -72,6 +74,30 @@
         <img class="aside-img" src="img/etapas.png" alt="">
     </aside>
     <div class="line2"></div>
+    <h3>Fale Conosco</h3>
+    <section class="fale-conosco">
+        <div class="fale-conosco-1">
+            <img src="img/atend.png" alt="">
+        </div>
+        <div class="fale-conosco-2">
+            <form action="https://api.staticforms.xyz/submit" method="post">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+              
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+              
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+              
+                <input type="submit" value="Enviar">
+
+                <input type="hidden" name="accessKey" value="93184c90-995c-47e9-a65a-0e4a5189ffae">
+              </form>
+        </div>
+    </section>
+    <div class="line2"></div>
+    <div class="img-sust"><img src="img/bortoacsustetabilidade.png" alt=""></div>
     <footer>
         
     </footer>

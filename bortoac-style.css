@@ -13,14 +13,20 @@ body {
 nav {
     height: 50px;
     background-color: black;
+}
+
+.itens-menu {
+    max-width: 2000px;
+    height: 50px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     gap: 20px;
     padding: 0 30px;
+    margin: auto;
 }
 
-nav a {
+.itens-menu a {
     color: white;
     text-decoration: none;
 }
@@ -85,6 +91,12 @@ section {
 h2 {
     font-size: 2em;
     padding: 30px 0 20px 0;
+}
+
+h3 {
+    text-align: center;
+    padding: 30px;
+    font-size: 2em;
 }
 
 p {
@@ -162,6 +174,60 @@ aside h2 {
     height: 10px; 
     background-color: rgb(236, 236, 236);
     margin-top: 20px;
+}
+
+.fale-conosco {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fale-conosco-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.fale-conosco-1 img {
+    width: 300px;
+}
+
+  label, input, textarea {
+    display: block;
+    margin-bottom: 10px;
+    width: 60vh;
+}
+
+#mensagem {
+    height: 100px;
+} 
+
+input[type="submit"] {
+    background-color: #FF6500;
+    border-radius: 20px;
+    width: 100px;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover {
+    background-image: linear-gradient(to right, var(--color3), var(--color5));
+}
+
+.img-sust {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1210px;
+    margin: auto;
+}
+
+.img-sust img {
+    width: 100%;
+    padding: 30px;
 }
 
 /*Header*/
@@ -389,3 +455,12 @@ aside h2 {
     }
 }
 /*aside*/
+
+/*formulário*/
+@media(max-width: 811px) {
+    .fale-conosco {
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+}
+/*formulário*/
