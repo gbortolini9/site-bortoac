@@ -26,12 +26,12 @@ nav {
     margin: auto;
 }
 
-.itens-menu a {
+.itens-menu .link {
     color: white;
     text-decoration: none;
 }
 
-a:hover {
+.link:hover {
     color: #FF6500;
 }
 
@@ -217,17 +217,21 @@ input[type="submit"]:hover {
     background-image: linear-gradient(to right, var(--color3), var(--color5));
 }
 
-.img-sust {
+#img-sust-a {
     display: flex;
     justify-content: center;
-    align-items: center;
     max-width: 1210px;
     margin: auto;
 }
 
-.img-sust img {
-    width: 80%;
+#img-sust {
+    width: 100%;
     padding: 30px;
+}
+
+footer {
+    background-color: black;
+    margin-top: 30px;
 }
 
 /*nav*/
