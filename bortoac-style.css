@@ -126,7 +126,7 @@ p {
 }
 
 .parte03 img {
-    width: 200px;
+    width: 250px;
     padding-right: 20px;
 }
 
@@ -143,6 +143,8 @@ p {
 
 aside {
     background-color: rgb(236, 236, 236);
+    border-radius: 7px;
+    box-shadow: 7px 5px 11px 1px #0000004d;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -192,7 +194,27 @@ aside h2 {
     width: 300px;
 }
 
-  label, input, textarea {
+span {
+    display: flex;
+    align-items: center;
+}
+
+h4 {
+    font-size: 1.7em;
+    margin-bottom: -10px;
+}
+
+span h5 {
+    font-size: 2.5em;
+    color: rgb(73, 197, 42);
+}
+
+#wpp {
+    width: 50px;
+    padding-right: 10px;
+}
+
+label, input, textarea {
     display: block;
     margin-bottom: 10px;
     width: 60vh;
