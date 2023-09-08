@@ -248,12 +248,22 @@ form p {
     border-radius: 7px;
 }
 
+.btn-buttons-1 {
+    background-color: green;
+}
+
+.btn-buttons-2 {
+    background-color: #FF6500;
+}
+
 .btn-buttons-1:hover {
-    background-color: #009e35;
+    background-color: black;
+    cursor: pointer;
 }
 
 .btn-buttons-2:hover {
-    background-color: #FF6500;
+    background-color: black;
+    cursor: pointer;
 }
 
 #img-sust-a {
