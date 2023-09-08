@@ -240,7 +240,7 @@ form p {
 
 }
 
-.btn-buttons {
+.btn-buttons-1, .btn-buttons-2 {
     padding: 10px;
     background-color: black;
     color: white;
@@ -248,7 +248,11 @@ form p {
     border-radius: 7px;
 }
 
-.btn-buttons:hover {
+.btn-buttons-1:hover {
+    background-color: #009e35;
+}
+
+.btn-buttons-2:hover {
     background-color: #FF6500;
 }
 
@@ -283,7 +287,6 @@ footer {
 
 .rodape img {
     max-width: 110px;
-    padding: 10px;
 }
 
 .infos-adicionais {
@@ -305,13 +308,17 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 5px;
+}
+
+.img-footer {
+    margin: 0 0px 0 30px;
+    padding: 0;
 }
 
 .infos-adicionais-icones img {
     display: flex;
     width: 30px;
-    padding: 5px;
 }
 
 #registro {
