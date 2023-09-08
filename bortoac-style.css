@@ -183,6 +183,7 @@ aside h2 {
     margin: auto;
     display: flex;
     justify-content: space-between;
+    gap: 30px;
 }
 
 .fale-conosco-1 {
@@ -210,12 +211,12 @@ h4 {
 }
 
 span h5 {
-    font-size: 2.5em;
+    font-size: 2.4em;
     color: rgb(73, 197, 42);
 }
 
 #wpp {
-    width: 50px;
+    width: 40px;
     padding-right: 10px;
 }
 
