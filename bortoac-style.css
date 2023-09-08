@@ -254,17 +254,97 @@ input[type="submit"] {
 
 footer {
     background-color: black;
+    display: flex;
     margin-top: 30px;
 }
 
 .rodape {
-    max-width: 2000px;
     display: flex;
+    flex-direction: row;
     margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 1250px;
+    text-align: center;
 }
 
-#logo-footer {
-    width: 150px;
+.rodape img {
+    max-width: 110px;
+    padding: 10px;
+}
+
+.infos-adicionais {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.h6 {
+  padding: 10px;
+  color: white;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.infos-adicionais-icones {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.infos-adicionais-icones img {
+    display: flex;
+    width: 30px;
+    padding: 5px;
+}
+
+#registro {
+    color: white;
+    font-size: 0.9em;
+    text-align: center;
+}
+
+@media(max-width: 1000px) {
+    .rodape {
+        justify-content: center;
+        padding: 30px;
+        gap: 40px;
+    }
+}
+
+@media(max-width: 630px) {
+    .infos-adicionais-icones {
+        font-size: 0.8em;
+    }
+    
+}
+
+@media (max-width: 490px) {
+
+    .infos-adicionais-icones {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.registroo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sub-registro {
+    display: flex;
+    justify-content: center;
+}
+
+#bortoac-logo-3 {
+    width: 40px;
+    padding: 0px 5px;
 }
 
 /*nav*/
