@@ -293,6 +293,7 @@ footer {
     flex-wrap: wrap;
     width: 1250px;
     text-align: center;
+    padding: 20px 0;
 }
 
 .rodape img {
