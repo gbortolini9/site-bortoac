@@ -339,11 +339,49 @@ footer {
     padding: 5px;
 }
 
-#registro {
+
+.registroo {
+    display: flex;
+}
+
+.registroo a {
+    display: flex;
+    margin-right: -30px;
+    margin-bottom: 5px;
+}
+
+.registro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.registro p {
+    text-align: center;
+    text-indent: 0;
     color: white;
     font-size: 0.9em;
-    text-align: center;
 }
+
+.img-registro {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.img-registro p {
+    text-align: none;
+    text-indent: 0;
+    color: white;
+}
+
+.img-registro img {
+    width: 40px;
+    margin: 0;
+    padding: 0;
+}
+
 
 @media(max-width: 1000px) {
     .rodape {
@@ -366,20 +404,4 @@ footer {
         display: flex;
         flex-direction: column;
     }
-}
-
-.registroo {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.sub-registro {
-    display: flex;
-    justify-content: center;
-}
-
-#bortoac-logo-3 {
-    width: 40px;
-    padding: 0px 5px;
 }
