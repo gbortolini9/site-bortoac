@@ -9,111 +9,168 @@
 
 section {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-top: 10px;
-    width: 100%;
-    margin-bottom: 30px;
+    align-items: center;
+    justify-content: center;
 }
 
-.h1-contato {
+h2 {
     font-size: 2em;
-    padding: 10px;
+    padding: 30px 0 20px 0;
+}
+
+h3 {
     text-align: center;
-    border-radius: 10px;
-    margin: 10px 0px;
+    padding: 30px 0 10px 0;
+    font-size: 2em;
 }
 
-#contato-img {
-    width: 200px;
+p {
+    font-size: 1.5em;
+    padding: 0;
+    text-indent: none;
 }
 
-section {
-    margin-top: 30px;
+.parte01 img {
+    width: 500px;
+    padding-right: 30px;
 }
 
-.endereco h4 {
-    font-size: 1.3em;
+.parte02 {
+    display: flex;
+    justify-content: space-between;
 }
 
-.endereco p {
-    text-indent: 0;
-    padding: 10px;
+.parte02 img {
+    width: 45%;
+    padding-left: 30px;
 }
 
-#divisao {
+.parte02-coluna {
+    display: flex;
+    flex-direction: column;
+}
+
+.parte03 img {
+    width: 250px;
+    padding-right: 20px;
+}
+
+.parte03 {
+    display: flex;
+    flex-direction: column;
+}
+
+.img-txt {
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+}
+
+.line2 {
+    display: flex;
     width: 100%;
-    border: solid 1px var(--color1);
+    height: 10px; 
+    background-color: rgb(236, 236, 236);
+    margin-top: 40px;
 }
 
-form {
-    margin-left: 30px;
-    width: 100%;   
+.fale-conosco {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
 }
 
-  label, input, textarea {
-    display: block;
-    margin-bottom: 10px;
-    width: 80vh;
+.fale-conosco-1 {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
 }
 
-#mensagem {
-    height: 100px;
-} 
-
-@media(max-width: 600px) {
-    label, input, textarea {
-        width: 400px;
-    }
-
-    .endereco {
-        padding: 20px;
-    }
+.fale-conosco-1 img {
+    width: 300px;
 }
 
-  input[type="submit"] {
-    background-image: var(--color6);
-    border-radius: 20px;
-    width: 100px;
+.fale-conosco-2 {
+    padding: 20px;
+}
+
+span {
+    display: flex;
+    align-items: center;
+}
+
+h4 {
+    font-size: 1.5em;
+    margin-bottom: -10px;
+}
+
+span h5 {
+    font-size: 2.4em;
+    color: rgb(73, 197, 42);
+}
+
+#wpp {
+    width: 40px;
+    padding-right: 10px;
+}
+
+.nome, .email, .mensagem {
+    width: 30vw;
+}
+
+form p {
+    font-size: 1.2em;
+    padding-top: 10px;
+}
+
+.mensagem {
+    height: 150px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+
+.btn-buttons-1, .btn-buttons-2 {
+    padding: 10px;
+    background-color: black;
     color: white;
     border: none;
-    padding: 10px;
+    border-radius: 7px;
+}
+
+.btn-buttons-1 {
+    background-color: green;
+}
+
+.btn-buttons-2 {
+    background-color: #FF6500;
+}
+
+.btn-buttons-1:hover {
+    background-color: black;
     cursor: pointer;
-    font-weight: bold;
 }
 
-input[type="submit"]:hover {
-    background-image: linear-gradient(to right, var(--color3), var(--color5));
+.btn-buttons-2:hover {
+    background-color: black;
+    cursor: pointer;
 }
 
-@media(max-width: 375px) {
-    label, input, textarea {
-        width: 300px;
-        margin: 0;
-        padding: 5px;
+/*formulário*/
+@media(max-width: 899px) {
+    .fale-conosco {
+    flex-wrap: wrap;
+    justify-content: center;
     }
 
-    form {
-        margin: 0;
-    }
-
-    input[type="submit"] {
-        margin-top: 20px;
+    .nome, .email, .mensagem {
+        width: 70vw;
     }
 }
-
-@media(max-width: 320px) {
-    label, input, textarea {
-        width: 250px;
-        margin: 0;
-        padding: 5px;
-    }
-
-    form {
-        margin: 0;
-    }
-
-    input[type="submit"] {
-        margin-top: 20px;
-    }
-}
+/*formulário*/

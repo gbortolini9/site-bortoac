@@ -40,30 +40,42 @@
         </div>
     </nav>
     <main>
-        <h1 class="h1-contato">Fale Conosco</h1>
-        <div id="divisao"></div>
-        <section>
-            <div class="endereco">
-                <img id="contato-img" src="img/atend.png" alt="">
-                <h4>Telefone</h4>
-                <p>+55 (51) 98433.4596</p>
-                <div id="divisao"></div>    
+        <h3>Fale Conosco</h3>
+        <section class="fale-conosco">
+            <div class="fale-conosco-1">
+                <img src="img/atend.png" alt="">
+                <h4>Se preferir, contate-nos pelo</h4><br>
+                <span><img id="wpp" src="img/whatsapp-full.png" alt=""><h5>51 98433.4596</h5></span>
             </div>
-            <div class="two">
-                <form action="https://api.staticforms.xyz/submit" method="post">
-                    <label for="nome">Nome:</label>
-                    <input type="text" id="nome" name="nome" required>
-                  
-                    <label for="email">E-mail:</label>
-                    <input type="email" id="email" name="email" required>
-                  
-                    <label for="mensagem">Mensagem:</label>
-                    <textarea id="mensagem" name="mensagem" required></textarea>
-                  
-                    <input type="submit" value="Enviar">
-
-                    <input type="hidden" name="accessKey" value="93184c90-995c-47e9-a65a-0e4a5189ffae">
-                  </form>
+            <div class="fale-conosco-2">
+                <form action="http://formmail.kinghost.net/formmail.cgi" method="POST"> 
+                    <input type="hidden" name="recipient" value="testeiseuemail@gmail.com"> <!-- Pode ser qualquer endereço de email -->
+                    <input type="hidden" name="redirect" value="http://seudominio"> <!-- Após o envio, o usuário será redirecionado para a página configurada aqui -->
+                    <input type="hidden" name="subject" value="teste de assunto"> <!-- Assunto da mensagem -->
+                    <input type="hidden" name="email" value="email@doseudominio"> <!-- Deve ser uma conta de email ativa em seu domínio -->
+                    
+                    <p style="text-indent: 0;"> 
+                    Nome:<br/> 
+                    <input class="nome" type="text" size="30" name="nome" required> 
+                    </p>   
+                    
+                    <p style="text-indent: 0;">
+                    E-mail:<br/> 
+                    <input class="email" type="text" size="30" name="replyto" required> 
+                    </p>   
+                    
+                    <p style="text-indent: 0;"> 
+                    Mensagem:<br/> 
+                    <input class="mensagem" type="text" size="35" name="Comentarios" required> 
+                    </p>   
+                    
+                    <p> 
+                        <div class="buttons">
+                            <input class="btn-buttons-1" type="submit" name="BTEnvia" value="Enviar">
+                            <input class="btn-buttons-2" type="reset" name="BTApaga" value="Limpar">
+                        </div> 
+                    </p> 
+                </form>
             </div>
         </section>
     </main>
